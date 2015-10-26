@@ -5,7 +5,12 @@ using `SHIFT + R` you can reload all css files on the page
 
 ## To use
 
-Add this as a bookmarklet and presto
+Add this bookmarklet to your browser. Click the bookmark to initialize.
 
-`javascript:(function(){document.body.appendChild(document.createElement('script')).src='//rawgithub.com/markgandolfo/reload.js/master/reload.js';})();`
+`javascript:(function(){var a=document.createElement('script');a.id="reload.js";a.src="//rawgithub.com/markgandolfo/reload.js/master/reload.js";document.body.appendChild(a);})();`
+
+Once initialized you can use `SHIFT + R` to reload the css tags on the page
+
+If you would like to unload reload.js press `SHIFT + U`. 
+
 
