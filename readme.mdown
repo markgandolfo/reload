@@ -1,0 +1,11 @@
+Reload CSS
+----------
+
+using `SHIFT + R` you can reload all css files on the page
+
+## To use
+
+Add this as a bookmarklet and presto
+
+`javascript:(function(){document.body.appendChild(document.createElement('script')).src='//rawgithub.com/markgandolfo/reload.js/master/reload.js';})();`
+
